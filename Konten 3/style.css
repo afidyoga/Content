@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;    
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+.text{
+    background: #fed369;
+    background: -moz-linear-gradient(to right,#55acee 0,#da84ab 50%,#fcac5e 100%);
+    background: -webkit-linear-gradient(to right,#55acee 0,#da84ab 50%,#fcac5e 100%);
+    background: linear-gradient(to right,
+#55acee 0,#da84ab 50%,
+#fcac5e 100%);
+    background-clip: border-box;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00626b', endColorstr='#00f7ca', GradientType=1 );
+background-clip: text;
+-webkit-background-clip: text;
+text-fill-color: transparent;
+-webkit-text-fill-color:
+    transparent;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    to{
+        background-position: 400%;
+    }
+}
